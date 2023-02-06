@@ -4,6 +4,7 @@ import createEmotionServer from '@emotion/server/create-instance';
 import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
 
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -18,7 +19,9 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+   
           <NextScript />
+
         </body>
       </Html>
     );
