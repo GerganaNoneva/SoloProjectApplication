@@ -5,6 +5,7 @@ import styles from "./Example.module.scss";
 import classNames from "classnames";
 import {Logo} from '../logo/Logo'
 
+
 export default function Copyright() {
   return (
     <div className={classNames(styles.wrapper)}>
@@ -15,6 +16,7 @@ export default function Copyright() {
             Hi
           </Link>
         </Paper>
+        <Logo></Logo>
       </Container>
 
     </div>
