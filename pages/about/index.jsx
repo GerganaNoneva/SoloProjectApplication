@@ -4,7 +4,6 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Link from "../../src/components/link/Link";
 
-
 export default function About() {
   return (
     <Container maxWidth="sm">

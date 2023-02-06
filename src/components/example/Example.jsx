@@ -3,8 +3,6 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-import {Logo} from '../logo/Logo'
-
 
 export default function Copyright() {
   return (
@@ -15,7 +13,6 @@ export default function Copyright() {
             Hi
           </Link>
         </Paper>
-        <Logo></Logo>
       </Container>
     </div>
   );
