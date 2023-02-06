@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
 import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
+import {Logo} from '../src/components/logo/Logo'
 
 export default class MyDocument extends Document {
   render() {
@@ -18,7 +19,9 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <Logo></Logo>
           <NextScript />
+
         </body>
       </Html>
     );
