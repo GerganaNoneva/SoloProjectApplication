@@ -3,7 +3,8 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-import {Logo} from '../src/components/logo/Logo'
+import {Logo} from '../logo/Logo'
+
 
 export default function Copyright() {
   return (
@@ -13,8 +14,8 @@ export default function Copyright() {
           <Link href="/about" color="secondary">
             Hi
           </Link>
-          <Logo></Logo>
         </Paper>
+        <Logo></Logo>
       </Container>
     </div>
   );
