@@ -1,4 +1,7 @@
 @use "../../styles/colors";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 
 .wrapper {
   padding: 100px;
@@ -9,6 +12,7 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .grid {
@@ -37,8 +41,14 @@
   color: colors.$text_secondary;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.link::first-letter {
+  transform: to-upper-case($string: "");
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+.buttonContainer {
+  align-items: center;
+  justify-content: center;
 }
