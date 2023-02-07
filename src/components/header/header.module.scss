@@ -1,0 +1,44 @@
+@use "../../styles/colors";
+
+.wrapper {
+  padding: 100px;
+  background-color: colors.$background_paper;
+}
+
+.container {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+    border: 1px solid black;
+    background-color: colors.$background_paper;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchField {
+    background-color: colors.$background_default;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.searchInput {
+  width: 100%;
+  margin-left: 20px;
+  color: colors.$text_secondary;
+}
+
+.searchInput::placeholder {
+  color: colors.$text_secondary;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
